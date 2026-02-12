@@ -67,11 +67,16 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="mt-10 h-48 bg-sage-900/50 rounded-lg flex items-center justify-center border border-sage-700">
-              <span className="text-sage-400 text-sm flex items-center gap-2">
-                <MapPin size={16} /> Google Maps Placeholder
-              </span>
+            {/* Google Map */}
+            <div className="mt-8 h-64 w-full rounded-lg overflow-hidden border border-sage-600 shadow-lg">
+               <iframe 
+                 title="S2 Parikalpana Office Location"
+                 className="w-full h-full grayscale-[20%] hover:grayscale-0 transition-all duration-500"
+                 loading="lazy"
+                 allowFullScreen
+                 referrerPolicy="no-referrer-when-downgrade"
+                 src="https://maps.google.com/maps?q=Shree%20Nidhi%20CHS%2C%20Tilak%20Road%2C%20Dombivli%20East&t=&z=15&ie=UTF8&iwloc=&output=embed"
+               ></iframe>
             </div>
           </div>
 
