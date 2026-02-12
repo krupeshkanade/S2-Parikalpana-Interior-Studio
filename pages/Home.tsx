@@ -102,8 +102,8 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?auto=format&fit=crop&q=80&w=800" 
-              alt="Interior Designer working on plans" 
+              src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?auto=format&fit=crop&q=80&w=800" 
+              alt="Airy and bright living room interior" 
               className="rounded-lg shadow-xl w-full h-[400px] object-cover"
             />
           </div>
